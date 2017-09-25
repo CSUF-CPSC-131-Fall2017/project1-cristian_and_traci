@@ -12,7 +12,9 @@ public:
 	double getPrice();
 	bool isTaxable();
 private:
-	// any private member variables and methods go here
-	// TO BE COMPLETED
+	string code;
+	double price;
+	string itemName;
+	bool taxable;
 
 };
