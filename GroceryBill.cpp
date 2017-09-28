@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 GroceryBill::GroceryBill(const PriceList *priceList, double taxRate) {
 	// To be completed
 	price_list = new PriceList;
